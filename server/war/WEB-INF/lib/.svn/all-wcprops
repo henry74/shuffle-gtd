@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/lib
+END
+aopalliance.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/94/trunk/server/war/WEB-INF/lib/aopalliance.jar
+END
+gwtupload-0.5.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/lib/gwtupload-0.5.5.jar
+END
+guice-2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/94/trunk/server/war/WEB-INF/lib/guice-2.0.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/lib/commons-fileupload-1.2.1.jar
+END
+protobuf-java-2.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/lib/protobuf-java-2.2.0.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/lib/log4j.jar
+END
+commons-io-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/lib/commons-io-1.4.jar
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/util
+END
+ItemCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/core/util/ItemCache.java
+END
+OSUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/util/OSUtils.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/161/trunk/client/src/org/dodgybits/shuffle/android/core/util/StringUtils.java
+END
+TextColours.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/core/util/TextColours.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/218/trunk/client/src/org/dodgybits/shuffle/android/core/util/Constants.java
+END
+DateUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/170/trunk/client/src/org/dodgybits/shuffle/android/core/util/DateUtils.java
+END

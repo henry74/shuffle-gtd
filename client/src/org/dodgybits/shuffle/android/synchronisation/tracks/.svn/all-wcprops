@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/239/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks
+END
+TaskSynchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/233/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/TaskSynchronizer.java
+END
+ContextSynchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/233/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/ContextSynchronizer.java
+END
+ProjectSynchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/233/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/ProjectSynchronizer.java
+END
+TracksSynchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/227/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/TracksSynchronizer.java
+END
+SyncProgressListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/SyncProgressListener.java
+END
+ApiException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/227/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/ApiException.java
+END
+TracksEntities.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/213/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/TracksEntities.java
+END
+WebClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/227/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/WebClient.java
+END
+WebResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/227/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/WebResult.java
+END
+Synchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/Synchronizer.java
+END

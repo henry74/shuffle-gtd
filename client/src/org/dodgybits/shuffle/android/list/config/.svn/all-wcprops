@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/config
+END
+DueActionsListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/config/DueActionsListConfig.java
+END
+DrilldownListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/151/trunk/client/src/org/dodgybits/shuffle/android/list/config/DrilldownListConfig.java
+END
+ListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/161/trunk/client/src/org/dodgybits/shuffle/android/list/config/ListConfig.java
+END
+StandardTaskQueries.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/config/StandardTaskQueries.java
+END
+TaskListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/235/trunk/client/src/org/dodgybits/shuffle/android/list/config/TaskListConfig.java
+END
+ExpandableListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/151/trunk/client/src/org/dodgybits/shuffle/android/list/config/ExpandableListConfig.java
+END
+ContextListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/config/ContextListConfig.java
+END
+AbstractTaskListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/config/AbstractTaskListConfig.java
+END
+ProjectListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/config/ProjectListConfig.java
+END
+ContextExpandableListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/list/config/ContextExpandableListConfig.java
+END
+ProjectExpandableListConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/list/config/ProjectExpandableListConfig.java
+END

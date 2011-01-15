@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 Android Shuffle Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="ShuffleTheme" parent="@android:Theme" >        
+    </style>
+
+    <style name="activity" parent="ShuffleTheme">
+        <!--  <item name="android:background">@drawable/pale_weak_cyan</item> 
+        <item name="android:cacheColorHint">@null</item>
+         -->
+    </style>
+
+    <style name="editor" parent="activity">
+    </style>
+
+    <style name="list" parent="activity">
+    	<item name="android:divider">@android:drawable/divider_horizontal_bright</item> 
+    	<item name="android:background">@drawable/list_background</item>
+    	<item name="android:cacheColorHint">@drawable/list_background</item>
+    	<item name="android:listSelector">@drawable/list_selector_background</item>
+    	<item name="android:drawSelectorOnTop">true</item>
+	</style>
+
+	<style name="image" parent="ShuffleTheme">
+    	<item name="android:scaleType">fitCenter</item>
+	</style>
+
+    <style name="text" parent="ShuffleTheme">
+        <item name="android:textColor">@drawable/black</item>
+        <item name="android:textScaleX">0.9</item>
+    	<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+	    
+    <style name="text_editable" parent="text">
+    	<item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+	<style name="context" parent="text">
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="android:textScaleX">0.8</item>
+        <item name="android:gravity">center</item>
+	</style>
+
+    <style name="label" parent="text">
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textScaleX">0.8</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">5dip</item>
+    </style>
+
+    <style name="preferences_label" parent="label">
+        <item name="android:textColor">@drawable/white</item>
+    </style>
+    
+    <style name="preferences_checkbox" parent="ShuffleTheme">
+    </style>
+
+    <style name="preferences_restore_spinner" parent="white_text">
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textScaleX">0.8</item>
+    </style>
+    
+    
+    <style name="white_text" parent="text">
+        <item name="android:textColor">@drawable/white</item>
+    </style>
+    
+    <style name="text_autocomplete" parent="text_editable">
+    	<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    	<item name="android:popupBackground">@drawable/white</item>
+    	
+    </style>
+
+    <style name="text_dropdown" parent="text_editable">
+    </style>
+
+    <style name="list_text" parent="ShuffleTheme">
+        <item name="android:textColor">@drawable/description</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textScaleX">0.9</item>
+    	<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+	</style>
+
+	<style name="list_sub_text_1" parent="list_text">
+        <item name="android:textColor">@drawable/project</item>
+        <item name="android:typeface">sans</item>
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+	</style>
+
+    <style name="widget_title" parent="text">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@drawable/white</item>
+    </style>
+
+    <style name="widget_context">
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">16dip</item>
+        <item name="android:layout_height">16dip</item>
+        <item name="android:layout_marginTop">-2dip</item>
+        <item name="android:layout_marginBottom">2dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+    </style>
+
+    <style name="widget_project" parent="list_text">
+        <item name="android:textColor">@drawable/project</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">1dip</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:lines">1</item>
+        <item name="android:clickable">true</item>
+    </style>
+	
+	<style name="widget_description" parent="list_text">
+        <item name="android:textColor">@drawable/description</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:layout_marginTop">-2dip</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:clickable">true</item>
+	</style>
+
+	<style name="list_sub_text_2" parent="list_text">
+        <item name="android:textColor">@drawable/details</item>
+        <item name="android:typeface">sans</item>
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+	</style>
+
+    <style name="list_status_text" parent="ShuffleTheme">
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:paddingRight">2dip</item>
+        <item name="android:textScaleX">0.9</item>
+    </style>
+
+	<style name="due_date" parent="text">
+    	<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">right</item>
+	</style>
+
+    <style name="centered_row" parent="activity">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+   
+    <style name="top_row" parent="ShuffleTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">top</item>
+        <item name="android:baselineAligned">false</item>
+    </style>
+    
+    <style name="ButtonBar">
+		<item name="android:paddingTop">5px</item>
+        <item name="android:background">@drawable/light_gray</item>
+	</style>
+	
+    <style name="MinusButton">
+        <item name="android:background">@drawable/btn_circle</item>
+        <item name="android:src">@drawable/ic_btn_round_minus</item>
+    </style>
+
+    <style name="PlusButton">
+        <item name="android:background">@drawable/btn_circle</item>
+        <item name="android:src">@drawable/ic_btn_round_plus</item>
+    </style>
+
+    <style name="MoreButton">
+        <item name="android:background">@drawable/btn_circle</item>
+        <item name="android:src">@drawable/ic_btn_round_more</item>
+    </style>
+
+    <style name="ExpandButton">
+        <item name="android:background">@drawable/btn_circle</item>
+        <item name="android:src">@drawable/ic_btn_round_more</item>
+    </style>
+
+    <style name="CollapseButton">
+        <item name="android:background">@drawable/btn_circle</item>
+        <item name="android:src">@drawable/ic_btn_round_less</item>
+    </style>
+    
+        
+</resources>

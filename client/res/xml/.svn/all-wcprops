@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/182/trunk/client/res/xml
+END
+preferences.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/182/trunk/client/res/xml/preferences.xml
+END
+search_tasks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/176/trunk/client/res/xml/search_tasks.xml
+END
+search_contexts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/176/trunk/client/res/xml/search_contexts.xml
+END
+appwidget_provider.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/179/trunk/client/res/xml/appwidget_provider.xml
+END
+search_projects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/176/trunk/client/res/xml/search_projects.xml
+END

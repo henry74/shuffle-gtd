@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector
+END
+AbstractEntitySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector/AbstractEntitySelector.java
+END
+TaskSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector/TaskSelector.java
+END
+ContextSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector/ContextSelector.java
+END
+ProjectSelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector/ProjectSelector.java
+END
+Flag.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector/Flag.java
+END
+EntitySelector.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/core/model/persistence/selector/EntitySelector.java
+END

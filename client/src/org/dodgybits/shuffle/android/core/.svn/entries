@@ -1,0 +1,77 @@
+10
+
+dir
+242
+http://android-shuffle.googlecode.com/svn/trunk/client/src/org/dodgybits/shuffle/android/core
+http://android-shuffle.googlecode.com/svn
+
+
+
+2011-01-09T20:29:24.504091Z
+242
+andybryant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c433d9f2-e643-0410-a449-b9b772e888ec
+
+model
+dir
+
+ShuffleApplication.java
+file
+
+
+
+
+2011-01-15T05:15:31.982434Z
+c48a092ef9f36b578a3b714957e45576
+2010-05-08T13:15:03.851569Z
+176
+andybryant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+416
+
+configuration
+dir
+
+view
+dir
+
+activity
+dir
+
+util
+dir
+

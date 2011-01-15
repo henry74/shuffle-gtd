@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/model
+END
+TaskValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/TaskValue.java
+END
+ContextValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/ContextValue.java
+END
+ValueSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/ValueSelection.java
+END
+ProjectValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/ProjectValue.java
+END
+LoginInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/model/LoginInfo.java
+END
+KeyValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/KeyValue.java
+END
+BooleanSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/BooleanSelection.java
+END
+TaskFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/TaskFilter.java
+END
+TaskOrdering.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/model/TaskOrdering.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/activity/expandable
+END
+AbstractExpandableActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/activity/expandable/AbstractExpandableActivity.java
+END
+ExpandableContextsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/activity/expandable/ExpandableContextsActivity.java
+END
+ExpandableProjectsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/activity/expandable/ExpandableProjectsActivity.java
+END

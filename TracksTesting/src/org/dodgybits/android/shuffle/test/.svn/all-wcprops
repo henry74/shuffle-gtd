@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/228/trunk/TracksTesting/src/org/dodgybits/android/shuffle/test
+END
+TaskParserTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/228/trunk/TracksTesting/src/org/dodgybits/android/shuffle/test/TaskParserTests.java
+END
+ContextParserTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/216/trunk/TracksTesting/src/org/dodgybits/android/shuffle/test/ContextParserTests.java
+END
+ProjectParserTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/216/trunk/TracksTesting/src/org/dodgybits/android/shuffle/test/ProjectParserTests.java
+END

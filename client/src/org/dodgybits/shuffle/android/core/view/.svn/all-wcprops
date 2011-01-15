@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/view
+END
+DrawableUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/core/view/DrawableUtils.java
+END
+MenuUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/view/MenuUtils.java
+END
+IconArrayAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/148/trunk/client/src/org/dodgybits/shuffle/android/core/view/IconArrayAdapter.java
+END
+AlertUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/view/AlertUtils.java
+END
+ContextIcon.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/148/trunk/client/src/org/dodgybits/shuffle/android/core/view/ContextIcon.java
+END

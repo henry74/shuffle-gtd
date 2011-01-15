@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/command
+END
+SaveTaskCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/command/SaveTaskCommand.java
+END
+GetTasksCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/command/GetTasksCommand.java
+END

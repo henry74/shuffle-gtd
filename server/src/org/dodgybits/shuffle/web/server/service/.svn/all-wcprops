@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/server/service
+END
+TaskServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/server/service/TaskServiceImpl.java
+END
+RestoreServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/server/service/RestoreServlet.java
+END
+LoginServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/server/service/LoginServiceImpl.java
+END

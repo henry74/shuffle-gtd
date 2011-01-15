@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/server/persistence
+END
+PersistenceFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/server/persistence/PersistenceFilter.java
+END
+JdoUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/server/persistence/JdoUtils.java
+END

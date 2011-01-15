@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry
+END
+FlurryEnabledService.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry/FlurryEnabledService.java
+END
+Analytics.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry/Analytics.java
+END
+FlurryEnabledListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry/FlurryEnabledListActivity.java
+END
+FlurryEnabledPreferenceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry/FlurryEnabledPreferenceActivity.java
+END
+FlurryEnabledExpandableListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry/FlurryEnabledExpandableListActivity.java
+END
+FlurryEnabledActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/182/trunk/client/src/org/dodgybits/shuffle/android/core/activity/flurry/FlurryEnabledActivity.java
+END

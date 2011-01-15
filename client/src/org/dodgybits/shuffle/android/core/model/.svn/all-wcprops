@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/core/model
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/core/model/Task.java
+END
+EntityBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/236/trunk/client/src/org/dodgybits/shuffle/android/core/model/EntityBuilder.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/core/model/Context.java
+END
+Reminder.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/core/model/Reminder.java
+END
+Project.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/core/model/Project.java
+END
+Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/model/Entity.java
+END
+Id.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/151/trunk/client/src/org/dodgybits/shuffle/android/core/model/Id.java
+END

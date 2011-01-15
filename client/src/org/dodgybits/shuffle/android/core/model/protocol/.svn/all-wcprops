@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/236/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol
+END
+ProtocolUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/148/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/ProtocolUtil.java
+END
+ContextProtocolTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/236/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/ContextProtocolTranslator.java
+END
+EntityDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/151/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/EntityDirectory.java
+END
+ProjectProtocolTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/236/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/ProjectProtocolTranslator.java
+END
+HashEntityDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/151/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/HashEntityDirectory.java
+END
+EntityProtocolTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/149/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/EntityProtocolTranslator.java
+END
+TaskProtocolTranslator.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/236/trunk/client/src/org/dodgybits/shuffle/android/core/model/protocol/TaskProtocolTranslator.java
+END

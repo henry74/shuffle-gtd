@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/preference/activity
+END
+SynchronizationSettingsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/227/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/SynchronizationSettingsActivity.java
+END
+PreferencesDeleteActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesDeleteActivity.java
+END
+PreferencesCreateBackupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesCreateBackupActivity.java
+END
+PreferencesRestoreBackupActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/181/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesRestoreBackupActivity.java
+END
+PreferencesDeleteAllActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesDeleteAllActivity.java
+END
+PreferencesActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesActivity.java
+END
+PreferencesDeleteCompletedActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesDeleteCompletedActivity.java
+END
+PreferencesAppearanceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/preference/activity/PreferencesAppearanceActivity.java
+END

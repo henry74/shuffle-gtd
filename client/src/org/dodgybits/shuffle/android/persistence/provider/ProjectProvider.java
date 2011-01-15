@@ -1,0 +1,115 @@
+package org.dodgybits.shuffle.android.persistence.provider;
+
+import android.net.Uri;
+import android.provider.BaseColumns;
+
+public class ProjectProvider extends AbstractCollectionProvider {
+	   
+	public static final String PROJECT_TABLE_NAME = "project";
+
+    public static final String UPDATE_INTENT = "org.dodgybits.shuffle.android.PROJECT_UPDATE";
+
+	private static final String AUTHORITY = Shuffle.PACKAGE+".projectprovider";
+
+	static final int PROJECT_TASKS = 203;
+	static final int ACTIVE_PROJECTS = 204;
+
+	private static final String URL_COLLECTION_NAME = "projects";
+	
+
+	public ProjectProvider() {
+        super(
+                AUTHORITY,           // authority
+                URL_COLLECTION_NAME, // collectionNamePlural
+                PROJECT_TABLE_NAME,  // tableName
+                UPDATE_INTENT,       // update intent action
+                Projects.NAME,       // primary key
+                BaseColumns._ID,     // id field
+                Projects.CONTENT_URI,// content URI
+                BaseColumns._ID,     // fields...
+                Projects.NAME, 
+                Projects.DEFAULT_CONTEXT_ID,
+                Projects.PARALLEL,
+                Projects.ARCHIVED,
+                ShuffleTable.TRACKS_ID, 
+                ShuffleTable.MODIFIED_DATE,
+                ShuffleTable.DELETED,
+                ShuffleTable.ACTIVE
+                );
+	    
+		makeSearchable(Projects._ID, Projects.NAME, Projects.NAME, Projects.NAME);
+		uriMatcher.addURI(AUTHORITY, "projectTasks", PROJECT_TASKS);
+		String idField = "p._id";
+		String tables = "project p, task t";
+		String restrictions = "t.projectId = p._id and t.deleted = 0";
+
+		restrictionBuilders.put(PROJECT_TASKS, 
+		        new CustomElementFilterRestrictionBuilder(
+		                tables, restrictions, idField));
+		groupByBuilders.put(PROJECT_TASKS, 
+		        new StandardGroupByBuilder("p._id"));
+        elementInserters.put(COLLECTION_MATCH_ID, new ProjectInserter());
+		setDefaultSortOrder(Projects.DEFAULT_SORT_ORDER);
+
+		uriMatcher.addURI(AUTHORITY, "activeProjects", ACTIVE_PROJECTS);
+		
+		restrictionBuilders.put(ACTIVE_PROJECTS, 
+		        new CustomElementFilterRestrictionBuilder("project p", "p.deleted = 0", idField));
+		
+	}
+	
+    /**
+     * Projects table
+     */
+    public static final class Projects implements ShuffleTable {
+        public static final String ARCHIVED = "archived";
+        
+        /**
+         * The content:// style URL for this table
+         */
+        public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + URL_COLLECTION_NAME);
+        public static final Uri PROJECT_TASKS_CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/projectTasks");
+        public static final Uri ACTIVE_PROJECTS = Uri.parse("content://" + AUTHORITY + "/activeProjects");
+        public static final String DEFAULT_CONTEXT_ID = "defaultContextId";
+        /**
+         * The default sort order for this table
+         */
+        public static final String DEFAULT_SORT_ORDER = "name DESC";
+        public static final String NAME = "name";
+        
+        public static final String PARALLEL = "parallel";
+        public static final String TASK_COUNT = "count";
+
+        /**
+         * Projection for all the columns of a project.
+         */
+        public static final String[] FULL_PROJECTION = new String[] {
+                _ID,
+                NAME,
+                DEFAULT_CONTEXT_ID,
+                TRACKS_ID,
+                MODIFIED_DATE,
+                PARALLEL,
+                ARCHIVED,
+                DELETED,
+                ACTIVE
+        };
+        /**
+         * Projection for fetching the task count for each project.
+         */
+        public static final String[] FULL_TASK_PROJECTION = new String[] {
+            _ID,
+            TASK_COUNT,
+        };
+    }
+    
+    private class ProjectInserter extends ElementInserterImpl {
+
+        public ProjectInserter() {
+            super(Projects.NAME);
+        }
+        
+    }
+    
+    
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/242/trunk/client/src/org/dodgybits/shuffle/android/core/activity
+END
+HelpActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/core/activity/HelpActivity.java
+END
+TopLevelActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/242/trunk/client/src/org/dodgybits/shuffle/android/core/activity/TopLevelActivity.java
+END
+WelcomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/core/activity/WelcomeActivity.java
+END
+LauncherShortcutActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/core/activity/LauncherShortcutActivity.java
+END
+BootstrapActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/163/trunk/client/src/org/dodgybits/shuffle/android/core/activity/BootstrapActivity.java
+END

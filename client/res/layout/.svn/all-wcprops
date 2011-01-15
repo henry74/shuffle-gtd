@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/240/trunk/client/res/layout
+END
+preferences_appearance.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/95/trunk/client/res/layout/preferences_appearance.xml
+END
+delete_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/95/trunk/client/res/layout/delete_dialog.xml
+END
+list_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/95/trunk/client/res/layout/list_item_view.xml
+END
+expandable_project_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/240/trunk/client/res/layout/expandable_project_view.xml
+END
+icon_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/95/trunk/client/res/layout/icon_picker.xml
+END
+help.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/95/trunk/client/res/layout/help.xml
+END
+projects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/trunk/client/res/layout/projects.xml
+END
+expandable_contexts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/147/trunk/client/res/layout/expandable_contexts.xml
+END
+list_project_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/240/trunk/client/res/layout/list_project_view.xml
+END
+synchronize_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/214/trunk/client/res/layout/synchronize_settings.xml
+END
+launcher_shortcut.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/90/trunk/client/res/layout/launcher_shortcut.xml
+END
+task_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/147/trunk/client/res/layout/task_list.xml
+END
+colour_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/95/trunk/client/res/layout/colour_picker.xml
+END
+expandable_context_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/240/trunk/client/res/layout/expandable_context_view.xml
+END
+editor_active_entry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/240/trunk/client/res/layout/editor_active_entry.xml
+END
+edit_separator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/67/trunk/client/res/layout/edit_separator.xml
+END
+contexts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/67/trunk/client/res/layout/contexts.xml
+END
+task_editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/237/trunk/client/res/layout/task_editor.xml
+END
+list_context_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/240/trunk/client/res/layout/list_context_view.xml
+END
+synchronize.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/101/trunk/client/res/layout/synchronize.xml
+END
+project_editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/240/trunk/client/res/layout/project_editor.xml
+END
+icon_bar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/235/trunk/client/res/layout/icon_bar.xml
+END
+task_editor_scheduling.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/141/trunk/client/res/layout/task_editor_scheduling.xml
+END
+context_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/95/trunk/client/res/layout/context_view.xml
+END
+tabbed_due_tasks.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/147/trunk/client/res/layout/tabbed_due_tasks.xml
+END
+editor_save_panel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/67/trunk/client/res/layout/editor_save_panel.xml
+END
+widget.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/189/trunk/client/res/layout/widget.xml
+END
+list_task_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/240/trunk/client/res/layout/list_task_view.xml
+END
+backup_create.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/95/trunk/client/res/layout/backup_create.xml
+END
+edit_reminder_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/67/trunk/client/res/layout/edit_reminder_item.xml
+END
+editor_delete_entry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/240/trunk/client/res/layout/editor_delete_entry.xml
+END
+top_level.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/67/trunk/client/res/layout/top_level.xml
+END
+context_editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/240/trunk/client/res/layout/context_editor.xml
+END
+welcome.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/67/trunk/client/res/layout/welcome.xml
+END
+text_item_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/95/trunk/client/res/layout/text_item_view.xml
+END
+backup_restore.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/95/trunk/client/res/layout/backup_restore.xml
+END
+expandable_projects.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/147/trunk/client/res/layout/expandable_projects.xml
+END
+synchronize_notification_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/102/trunk/client/res/layout/synchronize_notification_layout.xml
+END

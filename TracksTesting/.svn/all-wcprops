@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/228/trunk/TracksTesting
+END
+default.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/206/trunk/TracksTesting/default.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/212/trunk/TracksTesting/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/206/trunk/TracksTesting/.project
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/206/trunk/TracksTesting/AndroidManifest.xml
+END

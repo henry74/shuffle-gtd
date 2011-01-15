@@ -1,0 +1,193 @@
+<RelativeLayout
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/widget_background"
+    android:paddingLeft="15dip"
+    android:paddingRight="15dip"
+    android:paddingTop="12dip"
+    android:paddingBottom="15dip"
+    >
+    
+    <TextView 
+       android:id="@+id/title"
+       android:layout_width="wrap_content" 
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:paddingLeft="4dip"
+       android:paddingTop="3dip"
+       style="@style/widget_title"       
+       />
+      
+    <ImageView android:id="@+id/add_task"
+       android:layout_width="20dip"
+       android:layout_height="20dip"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentRight="true"
+    />
+       
+	<RelativeLayout android:id="@+id/entry_1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_below="@+id/add_task"
+        android:layout_marginLeft="2dp"
+	    android:focusable="true"
+	    android:clickable="true"
+	    android:background="@android:drawable/list_selector_background"
+	    >
+
+	    <TextView 
+	       android:id="@+id/project_1"
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentTop="true"
+	       android:layout_alignParentLeft="true"
+	       android:layout_marginTop="1dp"
+	       android:paddingTop="5dip"
+	       android:duplicateParentState="true"
+	       style="@style/widget_project"       
+	       />
+	       
+	    <ImageView
+	       android:id="@+id/context_icon_1"   
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/project_1"
+	       android:layout_marginTop="1dp"
+	       android:duplicateParentState="true"
+	       style="@style/widget_context"       
+	    />
+	    
+	    <TextView 
+	       android:id="@+id/description_1"
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentRight="true"
+	       android:layout_toRightOf="@+id/context_icon_1"
+	       android:layout_below="@+id/project_1"
+	       android:layout_marginTop="1dp"
+	       android:layout_marginBottom="2dp"
+	       android:duplicateParentState="true"
+	       style="@style/widget_description"
+	       />
+	    
+	</RelativeLayout>
+	
+    <ImageView
+       android:id="@+id/divider_2"
+       android:layout_width="fill_parent"
+       android:layout_height="1dip"
+       android:src="@drawable/divider_horizontal_bright"
+       android:layout_below="@+id/entry_1"
+    />
+	
+	<RelativeLayout android:id="@+id/entry_2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:layout_below="@+id/divider_2"
+        android:layout_marginLeft="2dp"
+	    android:focusable="true"
+	    android:clickable="true"
+	    android:background="@android:drawable/list_selector_background"
+	    >
+    
+	    <TextView 
+	       android:id="@+id/project_2"
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentTop="true"
+	       android:layout_alignParentLeft="true"
+	       android:duplicateParentState="true"
+	       android:paddingTop="5dip"
+	       style="@style/widget_project"       
+	       />
+	
+	    <ImageView
+	       android:id="@+id/context_icon_2"   
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentLeft="true"
+	       android:layout_below="@+id/project_2"
+	       android:duplicateParentState="true"
+	       style="@style/widget_context"       
+	    />
+	
+	    <TextView 
+	       android:id="@+id/description_2"
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentRight="true"
+	       android:layout_toRightOf="@+id/context_icon_2"
+	       android:layout_below="@+id/project_2"
+	       android:duplicateParentState="true"
+	       style="@style/widget_description"
+	       />
+	       
+	</RelativeLayout>
+              
+    <TextView 
+       android:id="@+id/project_3"
+       android:layout_width="0dp" 
+       android:layout_height="0dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/entry_2"
+       android:paddingTop="2dip"
+       android:visibility="gone"
+       style="@style/widget_project"       
+       />
+       
+    <ImageView
+       android:id="@+id/context_icon_3"   
+       android:layout_width="0dp" 
+       android:layout_height="0dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/project_3"
+       android:visibility="gone"
+       style="@style/widget_context"       
+    />
+       
+    <TextView 
+       android:id="@+id/description_3"
+       android:layout_width="0dp" 
+       android:layout_height="0dp"
+       android:layout_alignParentRight="true"
+       android:layout_toRightOf="@+id/context_icon_3"
+       android:layout_below="@+id/project_3"
+       android:visibility="gone"
+       style="@style/widget_description"
+       />
+
+    <TextView 
+       android:id="@+id/project_4"
+       android:layout_width="0dp" 
+       android:layout_height="0dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/description_3"
+       android:paddingTop="2dip"
+       android:visibility="gone"
+       style="@style/widget_project"       
+       />
+
+    <ImageView
+       android:id="@+id/context_icon_4"   
+       android:layout_width="0dp" 
+       android:layout_height="0dp"
+       android:layout_alignParentLeft="true"
+       android:layout_below="@+id/project_4"
+       android:visibility="gone"
+       style="@style/widget_context"       
+    />
+
+    <TextView 
+       android:id="@+id/description_4"
+       android:layout_width="0dp" 
+       android:layout_height="0dp"
+       android:layout_alignParentRight="true"
+       android:layout_toRightOf="@+id/context_icon_4"
+       android:layout_below="@+id/project_4"
+       android:visibility="gone"
+       style="@style/widget_description"
+       />
+       
+</RelativeLayout>

@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <TextView android:id="@+id/start_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/start_title"
+        style="@style/label"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/start_date"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="left|center_vertical"/>
+
+        <Button android:id="@+id/start_time"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="left|center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/due_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/due_title"
+        style="@style/label"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:id="@+id/due_date"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:gravity="left|center_vertical"/>
+
+        <Button android:id="@+id/due_time"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="left|center_vertical"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dip"
+        >
+        
+        <Button android:id="@+id/clear_dates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/clear_title"
+            />
+
+        <CheckBox android:id="@+id/is_all_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:paddingTop="15dip"
+            android:paddingBottom="15dip"
+            android:paddingRight="10dip"
+            android:text="@string/all_day_title"
+            />
+        
+    </RelativeLayout>
+
+    <!-- REMINDERS -->
+    <LinearLayout android:id="@+id/reminders_container"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <TextView android:id="@+id/reminders_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reminders_title"
+            style="@style/label"/>
+
+        <LinearLayout android:id="@+id/reminder_items_container"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:paddingBottom="5dip"
+        android:visibility="gone"
+        >
+        <ImageButton android:id="@+id/reminder_add"
+            style="@style/PlusButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical|right"
+        />
+    </LinearLayout>
+    <!-- /REMINDERS -->
+    
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@android:drawable/divider_horizontal_bright"
+    />
+
+	<LinearLayout android:id="@+id/gcal_entry"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="?android:attr/scrollbarSize"
+	    android:minHeight="?android:attr/listPreferredItemHeight"
+	    android:background="@android:drawable/list_selector_background"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:focusable="true"
+	    android:clickable="true"
+	    >
+	
+	    <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="14dip"
+	        android:layout_marginTop="6dip"
+	        android:layout_marginBottom="6dip"
+	        android:layout_weight="1"
+	        android:duplicateParentState="true"
+	        >
+	
+	        <TextView android:id="@+id/gcal_label"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:singleLine="true"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:ellipsize="marquee"
+	            android:fadingEdge="horizontal"
+	            android:duplicateParentState="true"
+	            android:text="@string/add_to_gcal_title"
+	            />
+
+	        <TextView android:id="@+id/gcal_detail"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/gcal_label"
+	            android:layout_alignLeft="@+id/gcal_label"
+	            android:textAppearance="?android:attr/textAppearanceSmall"
+	            android:maxLines="2"
+	            android:duplicateParentState="true"
+	            android:text="@string/add_to_gcal_detail"
+	            />
+			
+	    </RelativeLayout>
+	
+	    <CheckBox android:id="@+id/update_calendar_checkbox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:focusable="false"
+	        android:clickable="false"
+	        />
+	
+	</LinearLayout>    
+
+</LinearLayout>

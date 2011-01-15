@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/view
+END
+ContextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/view/ContextView.java
+END
+ProjectView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/view/ProjectView.java
+END
+ExpandableTaskView.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/177/trunk/client/src/org/dodgybits/shuffle/android/list/view/ExpandableTaskView.java
+END
+SwipeListItemWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/view/SwipeListItemWrapper.java
+END
+ExpandableContextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/view/ExpandableContextView.java
+END
+ExpandableProjectView.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/view/ExpandableProjectView.java
+END
+SwipeListItemListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/view/SwipeListItemListener.java
+END
+ItemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/view/ItemView.java
+END
+LabelView.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/view/LabelView.java
+END
+TaskView.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/view/TaskView.java
+END
+StatusView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/240/trunk/client/src/org/dodgybits/shuffle/android/list/view/StatusView.java
+END

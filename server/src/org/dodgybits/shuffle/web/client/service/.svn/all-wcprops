@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/service
+END
+TaskServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/98/trunk/server/src/org/dodgybits/shuffle/web/client/service/TaskServiceAsync.java
+END
+TaskService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/service/TaskService.java
+END
+LoginServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/service/LoginServiceAsync.java
+END
+NotLoggedInException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/service/NotLoggedInException.java
+END
+ErrorHandlingAsyncCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/94/trunk/server/src/org/dodgybits/shuffle/web/client/service/ErrorHandlingAsyncCallback.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/100/trunk/server/src/org/dodgybits/shuffle/web/client/service/LoginService.java
+END

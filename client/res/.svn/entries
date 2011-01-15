@@ -1,0 +1,73 @@
+10
+
+dir
+242
+http://android-shuffle.googlecode.com/svn/trunk/client/res
+http://android-shuffle.googlecode.com/svn
+
+
+
+2011-01-06T08:02:00.587305Z
+240
+andybryant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c433d9f2-e643-0410-a449-b9b772e888ec
+
+drawable
+dir
+
+anim
+dir
+
+values-de
+dir
+
+values-zh-rTW
+dir
+
+layout-land
+dir
+
+drawable-land
+dir
+
+values-zh-rCN
+dir
+
+values
+dir
+
+layout-hdpi
+dir
+
+xml
+dir
+
+drawable-hdpi
+dir
+
+layout-mdpi
+dir
+
+values-fr
+dir
+
+values-pl
+dir
+
+layout
+dir
+

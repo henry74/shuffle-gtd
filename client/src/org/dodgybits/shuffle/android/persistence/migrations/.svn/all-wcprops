@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations
+END
+V1Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/233/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V1Migration.java
+END
+V10Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/181/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V10Migration.java
+END
+V11Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/181/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V11Migration.java
+END
+V12Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/181/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V12Migration.java
+END
+V13Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V13Migration.java
+END
+V14Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/233/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V14Migration.java
+END
+V15Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V15Migration.java
+END
+V9Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/233/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/V9Migration.java
+END
+Migration.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/Migration.java
+END
+AbstractMigration.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/persistence/migrations/AbstractMigration.java
+END

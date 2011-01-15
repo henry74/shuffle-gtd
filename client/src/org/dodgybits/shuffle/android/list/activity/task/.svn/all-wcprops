@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/242/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task
+END
+AbstractTaskListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/AbstractTaskListActivity.java
+END
+TopTasksActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/242/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/TopTasksActivity.java
+END
+ContextTasksActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/ContextTasksActivity.java
+END
+ProjectTasksActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/ProjectTasksActivity.java
+END
+TicklerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/TicklerActivity.java
+END
+InboxActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/InboxActivity.java
+END
+TabbedDueActionsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/TabbedDueActionsActivity.java
+END
+TrashActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/241/trunk/client/src/org/dodgybits/shuffle/android/list/activity/task/TrashActivity.java
+END

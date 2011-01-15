@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/182/trunk/client/lib
+END
+roboguice-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/176/trunk/client/lib/roboguice-1.0.jar
+END
+guice-2.0-no_aop.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/176/trunk/client/lib/guice-2.0-no_aop.jar
+END
+FlurryAgent.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/182/trunk/client/lib/FlurryAgent.jar
+END

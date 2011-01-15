@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 Android Shuffle Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+	<!--  Activity titles -->
+    <string name="app_name">Shuffle</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_project">Projects</string>
+    <string name="title_context">Contexts</string>
+    <string name="title_next_tasks">Next Actions</string>
+    <string name="title_due_tasks">Due Actions</string>
+    <string name="title_due_today">Due Today</string>
+    <string name="title_due_next_week">Due Next Week</string>
+    <string name="title_due_next_month">Due Next Month</string>
+    <string name="title_tickler">Tickler</string>
+    <string name="title_trash">Trash</string>
+    <string name="title_new_task">New action</string>
+    <string name="title_edit_task">Edit action</string>
+    <string name="title_view_task">View action</string>
+    <string name="title_new_project">New project</string>
+    <string name="title_edit_project">Edit project</string>
+    <string name="title_new_context">New context</string>
+    <string name="title_edit_context">Edit context</string>
+    <string name="title_task_extras">Action extras</string>
+    <string name="title_preferences">General Settings</string>
+    <string name="title_preferences_appearance">General Settings > Action appearance</string>
+    <string name="title_preferences_clean">General Settings > Clean up</string>
+    <string name="title_preferences_create_backup">Create backup</string>
+    <string name="title_preferences_restore_backup">Restore from backup</string>
+    <string name="title_help">Help</string>
+    <string name="title_icon_picker">Choose icon</string>
+    <string name="title_colour_picker">Choose color</string>
+    <string name="title_calendar">Actions due %s</string>
+    <string name="title_project_tasks">Projects > %s</string>
+    <string name="title_context_tasks">Contexts > %s</string>
+    <string name="title_shortcut_picker">Pick shortcut screen</string>
+    <string name="title_widget_picker">Pick widget screen</string>
+
+	<!--  Option menu -->
+    <string name="menu_save">Save</string>
+    <string name="menu_save_and_add">Save and New</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_put_back">Put back</string>
+    <string name="menu_complete">Toggle complete</string>
+    <string name="menu_move_up">Move up</string>
+    <string name="menu_move_down">Move down</string>
+    <string name="menu_insert">Add %s</string>
+    <string name="menu_revert">Revert</string>
+    <string name="menu_discard">Discard</string>
+    <string name="menu_view">Perspectives</string>
+    <string name="menu_preferences">Settings</string>
+    <string name="menu_sync">Synchronize</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_help">Help</string>
+
+    <!--  general purpose -->
+    <string name="project_title">Project</string>
+    <string name="context_title">Context</string>
+    <string name="details_title">Details</string>
+    <string name="set_button_title">Set</string>
+    <string name="clear_button_title">Clear</string>
+    <string name="edit_button_title">Edit</string>
+    <string name="extras_button_title">Extra details...</string>
+    <string name="save_button_title">Save</string>
+    <string name="ok_button_title">OK</string>
+    <string name="cancel_button_title">Cancel</string>
+    <string name="replace_button_title">Replace</string>
+	<string name="warning_title">Warning</string>
+	<string name="info_title">Information</string>
+    <string name="task_name">Action</string>
+    <string name="project_name">Project</string>
+    <string name="context_name">Context</string>
+    <string name="nothing"></string>
+    <string name="deleted">Deleted</string>
+    <string name="inactive">Inactive</string>
+    <string name="none_empty">None</string>
+    <string name="undefined">None</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="previous_button_title">Previous</string>
+    <string name="next_button_title">Next</string>
+
+    
+    <!--  search -->
+    <string name="search_label">Shuffle</string>
+    <string name="search_hint">Search by description or details</string>
+    <string name="search_settings_description">Descriptions and details of actions</string>
+    
+    <!--  Welcome screen -->
+    <string name="sample_data_title">Demonstration</string>
+    <string name="clean_slate_title">Clean slate</string>
+
+    <!--  What's new dialog -->
+<string name="whats_new_dialog_title">Shuffle</string>
+<string name="whats_new_dialog_message">Thanks for downloading Shuffle.\n\n
+<b>New in this version:</b>\n
+\t• Fix task editing compatibility with Android 1.5.\n
+\n
+<b>New in version 1.6.2:</b>\n
+\t• Fix bug where can\'t remove context or project from action.\n
+\n
+<b>New in version 1.6.1:</b>\n
+\t• Fixed Tracks sync bug.\n
+\t• Reverted Inbox behavior.\n
+\n
+<b>New in version 1.6.0:</b>\n
+\t• <b>Widget</b> for your favorite list.\n
+\t• Fixed Google Calendar creation on Android 2.2.\n
+\t• Big code rewrite to improve reliability and simplify addition of new features.\n
+\n
+<b>New in version 1.5.1:</b>\n
+\t• Patch for Tracks synch bugs.\n
+\n
+<b>New in version 1.5.0:</b>\n
+\t• Search actions (including in quick search box)\n
+\t• Enable removable of action scheduling\n
+\t• Remove actions from Inbox if project or context set\n
+\t• Add actions without projects to Next actions\n
+\t• Enable parallel execute of actions within a project\n
+\t• For Tracks synch, don\'t set all day flag unless a date is set\n
+\t• Show both start and due date in task lists\n
+\t• Updated Help screens\n
+\n
+\n
+Also note that this application sends anonymous usage statistics back to a server.  If you\'d rather not
+allow that, you can turn it off under Settings.</string>
+    
+	<!--  edit screens -->
+    <string name="menu_done">Save</string>
+    <string name="menu_doNotSave">Discard changes</string>
+
+	<!--  task edit screen -->
+    <string name="description_title">Description</string>
+    <string name="scheduling_title">Scheduling</string>
+    <string name="scheduling_collapsed">Click to reveal scheduling options</string>
+    <string name="scheduling_expanded">Click to hide scheduling options</string>
+    <string name="start_title">Start</string>
+    <string name="due_title">Due</string>
+    <string name="all_day_title">All day</string>
+    <string name="reminders_title">Reminders</string>
+    <string name="add_to_gcal_title">Add to Google Calendar</string>
+    <string name="add_to_gcal_detail_disabled">Add dates to enable this option</string>
+    <string name="add_to_gcal_detail">New entry will load after saving</string>
+    <string name="update_gcal_title">Update Google Calendar</string>
+    <string name="update_gcal_detail">Updated entry will load after saving</string>
+    <string name="completed_title">Completed</string>
+    <string name="active_title">Active</string>
+    <string name="deleted_title">Deleted</string>
+    <string name="clear_title">Clear dates</string>
+
+	<!--  project & context edit screens -->
+    <string name="colour_title">Color</string>
+    <string name="archived_title">Archived</string>
+    <string name="icon_title">Icon</string>
+    <string name="name_title">Name</string>
+    <string name="sequence_title">Actions completed in sequence</string>
+    <string name="parallel_title">Actions completed in parallel</string>
+    <string name="default_context_title">Default context</string>
+    <string name="preview_title">Preview</string>
+    <string name="context_errands">Errands</string>
+	<string name="context_online">Online</string>
+    <string name="context_athome">At home</string>
+    <string name="context_atwork">At work</string>
+	<string name="context_contact">Contact</string>
+	<string name="context_read">Read</string>
+
+	<!--  Calendar screen -->
+    <string name="day_button_title">Today</string>
+    <string name="week_button_title">Next week</string>
+    <string name="month_button_title">Next month</string>
+	
+	<!--  preferences screen -->    
+    <string name="display_task_list_title">Display in action lists</string>
+    <string name="context_icon_title">Context Icon</string>
+    <string name="context_name_title">Context Name</string>
+    <string name="due_date_title">Due Date</string>
+
+
+    <string name="general_preferences">Google settings</string>
+    
+    <string name="title_calendar_preference">Calendar selection</string>
+    <string name="summary_calendar_preference">For new Google Calendar entries</string>
+    
+    <string name="title_send_analytics_preference">Send usage data</string>
+    <string name="summary_send_analytics_preference">Anonymous data is used for finding bugs and prioritizing features.</string>
+
+	<string name="layout_preferences">Layout settings</string>
+
+	<string name="title_project_view_preference">Project view</string>
+	<string name="summary_project_view_preference">Display project actions on separate screen</string>
+
+	<string name="title_context_view_preference">Context view</string>
+	<string name="summary_context_view_preference">Display context actions on separate screen</string>
+
+	<string name="title_action_appearance_preference">Action appearance</string>
+	<string name="summary_action_appearance_preference">Customize display of actions in lists</string>
+
+
+    <string name="sync_preferences">Synchronization settings</string>
+
+    <string name="changeSynchronizationSettings">Tracks settings</string>
+
+
+	<string name="backup_preferences">Backup settings</string>
+	
+	<string name="title_create_backup_preference">Backup to SD Card</string>
+	<string name="summary_create_backup_preference">Save all actions, projects and contexts</string>
+
+    <string name="filename_title">Backup file</string>
+	<string name="backup_progress">Writing %1$s %2$s.</string>
+	<string name="toast_backup_saved">Data successfully backed up to %1$s.</string>
+
+	<string name="title_restore_backup_preference">Restore from SD Card</string>
+	<string name="summary_restore_backup_preference">Recover data from backup</string>
+	<string name="toast_backup_restored">Data successfully recovered from %1$s.</string>
+	<string name="restore_progress">Reading %1$s %2$s.</string>
+	<string name="restore_button_title">Restore</string>
+
+    <string name="warning_filename_empty">You must specify a filename.</string>
+	<string name="warning_filename_exists">%1$s already exists.</string>
+	<string name="warning_media_not_mounted">Media is not mounted %1$s</string>
+	<string name="warning_backup_failed">Backup failed %1$s</string>
+    <string name="warning_no_files">There are no files to display.</string>
+	<string name="warning_restore_failed">Restore failed %1$s</string>
+    <string name="status_checking_media">Checking media state.</string>
+    <string name="status_creating_backup">Creating backup file.</string>
+    <string name="status_backup_complete">Backup complete.</string>
+    <string name="status_reading_backup">Reading backup file.</string>
+    <string name="status_restore_complete">Restore complete.</string>
+
+	<string name="cleanup_preferences">Clean up settings</string>
+
+	<string name="dialog_title_cleanup_preference">Delete completed actions</string>
+
+	<string name="title_delete_completed_preference">Delete completed actions</string>
+
+	<string name="title_delete_all_preference">Delete everything!</string>
+	<string name="summary_delete_all_preference">Remove all actions, projects and custom contexts.</string>
+
+    <string name="delete_completed_button_title">Delete</string>
+    <string name="clean_inbox_button_title">Clean up Inbox</string>
+    <string name="clean_slate_button_title">Delete</string>
+
+    <string name="permanently_delete_button_title">Permanently delete</string>
+
+    <!-- Toast displayed when an item is created -->
+    <string name="itemCreatedToast">%1$s created.</string>
+
+    <string name="emptyTrashWarning">Permanently deleted all items in Trash?</string>
+    <string name="emptyTrashToast">Permanently deleted actions %1$s actions, projects and contexts.</string>
+    
+    <!-- Toast displayed when an item is saved -->
+    <string name="itemSavedToast">%1$s saved.</string>
+
+    <!-- Toast displayed when an item is saved -->
+    <string name="itemDeletedToast">%1$s deleted.</string>
+
+    
+   <!-- synchronization-->
+    <string name="synchronizing">Synchronizing with Tracks</string>
+    <string name="tracksUser">User</string>
+    <string name="tracksInstallation">Target installation</string>
+    <string name="tracks_url">Tracks installation</string>
+    <string name="tracks_url_settings">http://my.gtdify.com</string>
+    <string name="tracks_user">User</string>
+    <string name="tracks_pass">Password</string>
+    <string name="readingRemoteTasks">Reading remote tasks</string>
+    <string name="processingTasks">Processing tasks</string>
+    <string name="readingLocalTasks">Reading local tasks</string>
+    <string name="doneWithTasks">Done with tasks</string>
+    <string name="cannotSyncTasksWithoutContext">Any actions without contexts will not appear in Tracks</string>
+    <string name="readingRemoteContexts">Reading remote Contexts</string>
+    <string name="processingContexts">Processing Contexts</string>
+    <string name="readingLocalContexts">Reading local Contexts</string>
+    <string name="doneWithContexts">Done with Contexts</string>
+    <string name="readingRemoteProjects">Reading remote Projects</string>
+    <string name="processingProjects">Processing Projects</string>
+    <string name="readingLocalProjects">Reading local Projects</string>
+    <string name="doneWithProjects">Done with Projects</string>
+    <string name="tracks_failed_to_check_url">Could not load contexts using these settings, something is wrong with them</string>
+    <string name="tracks_background_sync">Background synchronization interval</string>
+    <string name="tracks_check_settings">Check settings</string><string name="tracks_settings_valid">Settings are valid</string><string name="sync_interval_none">Never</string>
+    <string name="sync_interval_30min">30 minutes</string>
+    <string name="sync_interval_1h">1 hour</string>
+    <string name="sync_interval_2h">2 hours</string>
+    <string name="sync_interval_3h">3 hours</string>
+
+    <!-- list filter preferences -->
+    <string name="list_settings_title">Settings</string>
+    <string name="active_items_title">Active items</string>
+    <string name="deleted_items_title">Deleted items</string>
+    <string name="pending_items_title">Actions starting in future</string>
+    <string name="completed_items_title">Completed actions</string>
+
+
+	<!--  messages -->
+    <string name="no_due_date">No due date</string>
+    <string name="no_icon">No icon</string>
+    <string name="no_tasks">There are no actions to display. Get started by selecting \"Add Action\" from the menu.</string>
+    <string name="no_due_tasks">There are no actions due.</string>
+    <string name="no_projects">There are no projects to display. Get started by creating actions in the Inbox and assigning them to projects.</string>
+    <string name="no_contexts">There are no contexts to display. Get started by creating actions in the Inbox and assigning them to contexts.</string>
+    <string name="delete_warning">Are you sure you want to delete the selected %1$s and it\'s %2$d %3$s(s)?</string>
+    <string name="delete_completed_warning">Delete all completed tasks?</string>
+    <string name="clean_slate_warning">Delete <i>all</i> actions, projects and custom contexts?</string>
+    <string name="clean_task_message">Deleted %1$d completed actions.</string>
+    <string name="clean_inbox_message">Cleared out actions with projects or contexts from Inbox.</string>
+    <string name="clean_slate_message">Deleted all actions, projects and custom contexts.</string>
+   	<string name="error_title">Error</string>
+	<string name="error_message">Error loading action</string>
+	<string name="web_error_message">Unable to connect to Tracks</string>    
+    <string name="welcome1">
+Welcome to Shuffle, a \"Getting Things Done\" inspired personal organization tool.
+If you want to see how best to use Shuffle, click \"Demonstration\" to 
+load up a bunch of example projects and actions.
+Later you can start again by selecting \"Delete all\" from the Settings menu.     
+    </string>
+    <string name="welcome2">
+Or get stuck in straight away with no actions or projects and only the default set of contexts...
+    </string>
+    <string name="welcome3">
+See Help menu for additional instructions and tips.
+    </string>
+    <string name="help0">
+Shuffle is a \"Getting Things Done\" inspired personal organization tool.
+It lets you quickly enter and categorize \'actions\'. With 5 supported perspectives,
+you can attack your actions any way you please.
+\n
+A simple elegant workflow encourages you to categorize your actions into projects and optionally provide context.
+This structure lets you to break down formidable projects into individual achievable tasks.\n
+As a project evolves, clean out old actions as they\'re performed, 
+add new actions and reorder any remaining actions depending on your current priorities.
+    </string>
+    <string name="help1">
+This is the best place to add your actions. 
+The <b>Inbox</b> is where all actions start off before they are processed.
+Try to regularly scan the Inbox, analyzing each action and either discard it, do it or assign it
+to a project and/or context.\n
+Once you\'ve processed the list, select <i>Clean up Inbox</i> from the menu to
+clear out all the categorized actions from your Inbox. 
+    </string>
+    <string name="help2">
+The <b>Project</b> perspective lists all your projects, and allows you to drill-down 
+into each project to view its actions. In addition to the standard adding, editing and deleting
+of actions, the project view also supports rearranging actions in the order you intend to complete them.
+\n
+For some projects it makes sense for actions to completed one after the other in strict order. For other
+projects,  actions can be completed in any order. This is configurable when creating or editing a project.
+\n
+Projects, like contexts, can be viewed in two different modes: drill-down or expandable view. 
+In drill down mode, clicking on a project takes you to another 
+screen showing the actions for that project. In expandable mode, clicking a project shows
+its actions on the same screen.
+    </string>
+    <string name="help3">
+<b>Contexts</b> are situations in which you intend to perform actions. Shuffle comes with a few standard contexts to get you started: 
+<i>At home</i>, <i>At  work</i>, <i>Online</i>, <i>Errands</i>, <i>Contact</i> and <i>Read</i>. \n
+Feel free to modify or delete the existing, or add your own contexts that suit your situation.\n
+\n
+Like the Projects perspective, contexts can be viewed in either drill-down or expandable mode, configurable via Settings. 
+    </string>
+    <string name="help4">
+<b>Next actions</b> is the best place to look to determine what needs to be done. \n
+It shows the following actions\n
+- those without a project\n
+- the first action for sequential projects\n
+- all actions for parallel projects\n
+This list quickly shows you the most important actions for you to get started on now.
+    </string>
+    <string name="help5">
+<b>Due actions</b> lets you keep track of actions you have given an explicit due date. 
+There are 3 views - <i>Today</i>, <i>This Week</i> and 
+<i>This Month</i> each showing actions due for the given time scale. 
+Overdue actions are shown in all views.
+    </string>
+    <string name="help6">
+A number of aspects of Shuffle are user-configurable. The <b>Settings</b> screen is available from all Perspectives via the menu. \n
+<b>Calendar</b>  - Select a calendar to use when integrating actions with Google Calendar. \n
+<b>Project/Context view</b>  - Show projects and contexts in two screens (drill-down) or in a tree structure (expandable). \n
+<b>Action appearance</b> - Lets you customize what information to display for actions in each perspective.  \n
+<b>Tracks settings</b> - Configure synchronization with a Tracks server . \n
+<b>Backup to SD Card</b> - Save all your actions, contexts and projects to your SD Card. You can them back this up to your computer. \n
+<b>Restore from SD Card</b> - Restores all your data from a backup. No attempt is made to avoid duplicate actions, 
+so it\'s best to restore onto a clean Shuffle instance. \n
+<b>Delete completed actions</b> - Permanently delete all completed actions. \n
+<b>Delete everything!</b> - Permanently delete all actions, projects and custom contexts. \n
+    </string>
+    <string name="help7">
+Some handy Shuffle features you may not know about:\n
+1) In any list view, long press on an item to see a menu of options.\n
+2) Hitting the Back button saves before closing.\n
+3) Use the <i>Save and New</i> menu to create a bunch of actions in one go.\n
+4) You can mark an action as complete by swiping your finger over it in a list.\n
+5) Create shortcuts on your Home Screens for various Shuffle views and actions\n
+6) In Global Settings &gt; Search, enable Shuffle for actions to appear in Quick Search Box queries (Android 1.6+ only)
+    </string>
+    <string name="help8">
+Thanks to the team behind the Tango Desktop Project, an open source collection of icons used in Shuffle.
+Thanks also to David Gibb for providing some great feedback on the design, Morten Nielson for the Tracks synch work,
+and to Gudrun for tolerating my nights and weekends spent tinkering with Android.\n
+\n
+For feedback or bug reports, please check http://code.google.com/p/android-shuffle/issues/list or email me at andy@dodgybits.org
+    </string>
+
+
+    <!-- Reminder format strings -->
+    <plurals name="Nminutes">
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 minute</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other">%1$d minutes</item>
+    </plurals>
+    <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
+    <plurals name="Nmins">
+        <!-- This is the label for a 1-minute reminder. -->
+        <item quantity="one">1 min</item>
+        <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+        <item quantity="other">%1$d mins</item>
+    </plurals>
+    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
+    <plurals name="Nhours">
+        <!-- This is the label for a 1-hour reminder. -->
+        <item quantity="one">1 hour</item>
+        <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
+        <item quantity="other">%1$d hours</item>
+    </plurals>
+    <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
+    <plurals name="Ndays">
+        <!-- This is the label for a reminder of 1 day. -->
+        <item quantity="one">1 day</item>
+        <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    
+
+
+</resources>

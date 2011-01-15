@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 Android Shuffle Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/general_preferences">
+
+        <ListPreference
+            android:key="calendar_id"
+            android:title="@string/title_calendar_preference"
+            android:summary="@string/summary_calendar_preference"
+            android:dialogTitle="@string/title_calendar_preference" />
+
+        <CheckBoxPreference
+                android:key="send_analytics"
+                android:title="@string/title_send_analytics_preference"
+                android:summary="@string/summary_send_analytics_preference" 
+                android:defaultValue="true"                
+                />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/layout_preferences">
+            
+        <CheckBoxPreference
+                android:key="project_view"
+                android:title="@string/title_project_view_preference"
+                android:summary="@string/summary_project_view_preference" 
+				android:defaultValue="false"                
+                />
+
+        <CheckBoxPreference
+                android:key="context_view"
+                android:title="@string/title_context_view_preference"
+                android:summary="@string/summary_context_view_preference" 
+				android:defaultValue="true"                
+                />
+            
+        <PreferenceScreen
+                android:title="@string/title_action_appearance_preference"
+                android:summary="@string/summary_action_appearance_preference">
+
+            <intent android:action="android.intent.action.MAIN" 
+                android:targetPackage="org.dodgybits.android.shuffle" 
+            	android:targetClass="org.dodgybits.shuffle.android.preference.activity.PreferencesAppearanceActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+         <PreferenceCategory
+            android:title="@string/sync_preferences">
+
+        <PreferenceScreen
+                android:title="@string/changeSynchronizationSettings">
+
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="org.dodgybits.android.shuffle"
+            	android:targetClass="org.dodgybits.shuffle.android.preference.activity.SynchronizationSettingsActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/backup_preferences">
+
+        <PreferenceScreen
+                android:title="@string/title_create_backup_preference"
+                android:summary="@string/summary_create_backup_preference">
+
+            <intent android:action="android.intent.action.MAIN" 
+                android:targetPackage="org.dodgybits.android.shuffle" 
+            	android:targetClass="org.dodgybits.shuffle.android.preference.activity.PreferencesCreateBackupActivity" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+                android:title="@string/title_restore_backup_preference"
+                android:summary="@string/summary_restore_backup_preference">
+
+            <intent android:action="android.intent.action.MAIN" 
+                android:targetPackage="org.dodgybits.android.shuffle" 
+            	android:targetClass="org.dodgybits.shuffle.android.preference.activity.PreferencesRestoreBackupActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/cleanup_preferences">
+
+        <PreferenceScreen
+                android:title="@string/title_delete_completed_preference">
+
+            <intent android:action="android.intent.action.MAIN" 
+                android:targetPackage="org.dodgybits.android.shuffle" 
+            	android:targetClass="org.dodgybits.shuffle.android.preference.activity.PreferencesDeleteCompletedActivity" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+                android:title="@string/title_delete_all_preference"
+                android:summary="@string/summary_delete_all_preference">
+
+            <intent android:action="android.intent.action.MAIN" 
+                android:targetPackage="org.dodgybits.android.shuffle" 
+            	android:targetClass="org.dodgybits.shuffle.android.preference.activity.PreferencesDeleteAllActivity" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+    
+</PreferenceScreen>

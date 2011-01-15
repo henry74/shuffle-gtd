@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/239/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing
+END
+TaskParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/228/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/TaskParser.java
+END
+ContextParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/239/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/ContextParser.java
+END
+ProjectParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/239/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/ProjectParser.java
+END
+IContextLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/205/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/IContextLookup.java
+END
+ParseResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/213/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/ParseResult.java
+END
+IProjectLookup.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/205/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/IProjectLookup.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/Parser.java
+END
+Applier.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/205/trunk/client/src/org/dodgybits/shuffle/android/synchronisation/tracks/parsing/Applier.java
+END

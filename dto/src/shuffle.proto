@@ -1,0 +1,56 @@
+package shuffle;
+
+option java_package = "org.dodgybits.shuffle.dto";
+option java_outer_classname = "ShuffleProtos";
+
+message Context {
+  required int64 id = 1;
+  required string name = 2;
+  optional int32 colourIndex = 3;
+  optional string icon = 4;
+  optional Date modified = 5;
+  optional int64 tracksId = 6;
+  optional bool active = 7;
+  optional bool deleted = 8;
+}
+
+message Project {
+  required int64 id = 1;
+  required string name = 2;
+  optional int64 defaultContextId = 3;
+  optional Date modified = 4;
+  optional int64 tracksId = 5;
+  optional bool parallel = 6;
+  optional bool active = 7;
+  optional bool deleted = 8;
+}
+
+message Task {
+  required int64 id = 1;
+  required string description = 2;
+  optional string details = 3;
+  optional int64 contextId = 4;
+  optional int64 projectId = 5;
+  optional Date created = 6;
+  optional Date modified = 7;
+  optional Date startDate = 8;
+  optional Date dueDate = 9;
+  optional string timezone = 10;
+  optional bool allDay = 11;
+  optional int64 calEventId = 12;
+  optional int32 order = 13;
+  optional bool complete = 14;
+  optional int64 tracksId = 15;
+  optional bool active = 16;
+  optional bool deleted = 17;
+}
+
+message Date {
+ required int64 millis = 1;
+}
+
+message Catalogue {
+  repeated Context context = 1;
+  repeated Project project = 2;
+  repeated Task task = 3;
+}

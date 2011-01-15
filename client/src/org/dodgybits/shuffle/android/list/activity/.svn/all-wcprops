@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/242/trunk/client/src/org/dodgybits/shuffle/android/list/activity
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/147/trunk/client/src/org/dodgybits/shuffle/android/list/activity/State.java
+END
+ContextsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/activity/ContextsActivity.java
+END
+ProjectsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/activity/ProjectsActivity.java
+END
+ListPreferenceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/239/trunk/client/src/org/dodgybits/shuffle/android/list/activity/ListPreferenceActivity.java
+END
+AbstractDrilldownListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/activity/AbstractDrilldownListActivity.java
+END
+AbstractListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/list/activity/AbstractListActivity.java
+END

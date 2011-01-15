@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/100/trunk/server/war/WEB-INF
+END
+appengine-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/appengine-web.xml
+END
+logging.properties
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/logging.properties
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/100/trunk/server/war/WEB-INF/web.xml
+END

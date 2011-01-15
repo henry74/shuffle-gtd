@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider
+END
+ContextProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/ContextProvider.java
+END
+ReminderProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/179/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/ReminderProvider.java
+END
+ProjectProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/ProjectProvider.java
+END
+DatabaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/DatabaseHelper.java
+END
+AbstractCollectionProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/AbstractCollectionProvider.java
+END
+Shuffle.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/176/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/Shuffle.java
+END
+TaskProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/234/trunk/client/src/org/dodgybits/shuffle/android/persistence/provider/TaskProvider.java
+END
